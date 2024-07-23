@@ -1,0 +1,6 @@
+print('--DESAFIO 022--')
+nome = str(input('Digite seu nome completo: ')).strip()
+print('Seu nome em maiúscula: {}'.format(nome.upper()))
+print('Seu nome em minúsculo: {}'.format(nome.lower()))
+print('Seu nome tem {} letras'.format(len(nome)-nome.count(' ')))
+print('Seu primeiro nome tem {} letras'.format(nome.find(' ')))
